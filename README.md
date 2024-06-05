@@ -34,16 +34,55 @@
 >[!IMPORTANT]
 >このリポジトリのリリースノートやREADME、コミットメッセージの9割近くは[claude.ai](https://claude.ai/)や[ChatGPT4](https://chatgpt.com/)を活用した[AIRA](https://github.com/Sunwood-ai-labs/AIRA), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), [Gaiah](https://github.com/Sunwood-ai-labs/Gaiah), [HarmonAI_II](https://github.com/Sunwood-ai-labs/HarmonAI_II)で生成しています。
 
-## 🌟 Introduction
+EMEX (Evolutionary Merge Experiment) は、mergekit-evolve を使用して複数の言語モデルを組み合わせ、タスクに特化した強力な言語モデルを生成するためのプロジェクトです。
 
-## 🎥 Demo
+## 特徴
 
-## 🚀 Getting Started
+- mergekit-evolve を使用して、複数の言語モデルを組み合わせることができます。
+- タスクに特化した言語モデルを生成することで、高いパフォーマンスを発揮します。
+- Docker Compose を使用して、簡単に環境を構築できます。
 
-## 📝 Updates
+## 設定ファイル
 
-## 🤝 Contributing
+主要な設定ファイルである `evol_merge_config.yml` では、以下のような設定を行います。
 
-## 📄 License
+- 組み合わせるモデルの指定 (例: NousResearch/Hermes-2-Pro-Mistral-7B, PocketDoc/Dans-AdventurousWinds-Mk2-7b, HuggingFaceH4/zephyr-7b-beta)
+- マージ方法の指定 (例: task_arithmetic)
+- ベースモデルの指定 (例: mistralai/Mistral-7B-v0.1)
+- タスクの名前と重みの指定 (例: alpaca_prompt_format, spartqa_train)
 
-## 🙏 Acknowledgements
+## 含まれるファイル
+
+- `eval_tasks/`: モデルの評価に使用するタスクの設定ファイルが含まれています。
+- `script/`: 便利なスクリプトファイルが含まれています。
+- `.aira/`: AIRA (AI Repository Assistant) の設定ファイルが含まれています。
+- `.github/workflows/`: GitHub Actions の設定ファイルが含まれています。
+- `.harmon_ai/`: HarmonAI_II (README 生成ツール) の設定ファイルが含まれています。
+
+## 使い方
+
+1. このリポジトリをクローンします。
+2. Docker Compose を使用して環境を構築します。
+3. `evol_merge_config.yml` を編集し、必要に応じて設定を変更します。
+4. mergekit-evolve を実行して、タスクに特化した言語モデルを生成します。
+
+## 貢献
+
+このプロジェクトへの貢献を歓迎します。問題やプルリクエストを通じて、改善点やアイデアを共有してください。
+
+## ライセンス
+
+このプロジェクトは [MIT ライセンス](LICENSE) の下で公開されています。
+
+## 謝辞
+
+このプロジェクトは、以下のツールやサービスを活用して開発されました。
+
+- [claude.ai](https://claude.ai/)
+- [ChatGPT4](https://chatgpt.com/)
+- [AIRA](https://github.com/Sunwood-ai-labs/AIRA)
+- [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage)
+- [Gaiah](https://github.com/Sunwood-ai-labs/Gaiah)
+- [HarmonAI_II](https://github.com/Sunwood-ai-labs/HarmonAI_II)
+
+これらのツールやサービスの開発者の皆様に感謝いたします。
