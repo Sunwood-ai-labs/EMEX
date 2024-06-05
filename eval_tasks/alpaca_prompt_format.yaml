@@ -1,5 +1,5 @@
 task: alpaca_prompt_format
-dataset_path: my-hf-username/alpaca-gpt4-500
+dataset_path: MakiAi/alpaca-gpt4-500
 output_type: multiple_choice
 training_split: train
 validation_split: train
