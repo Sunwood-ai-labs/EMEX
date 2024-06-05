@@ -1,5 +1,5 @@
 <p align="center">
-<img src="hhttps://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/EMEX.jpeg" width="100%">
+<img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/EMEX.jpeg" width="100%">
 <br>
 <h1 align="center">EMEX</h1>
 <h2 align="center">
