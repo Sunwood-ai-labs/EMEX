@@ -1,6 +1,6 @@
 task: spartqa_train
 # データセットのパスを指定(Hugging Face Hubにアップロードしたデータセットのパス)
-dataset_path: {username}/spartqa-train-1k
+dataset_path: MakiAi/spartqa-train-1k
 output_type: multiple_choice  # 出力形式を多肢選択式に指定
 training_split: train
 validation_split: train
