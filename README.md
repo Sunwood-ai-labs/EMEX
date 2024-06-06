@@ -5,12 +5,6 @@
 <h2 align="center">
   ～ Evolutionary Merge Experiment ～
 <br>
-  <img alt="PyPI - Version" src="https://img.shields.io/pypi/v/EMEX">
-<img alt="PyPI - Format" src="https://img.shields.io/pypi/format/EMEX">
-<img alt="PyPI - Implementation" src="https://img.shields.io/pypi/implementation/EMEX">
-<img alt="PyPI - Status" src="https://img.shields.io/pypi/status/EMEX">
-<img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dd/EMEX">
-<img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dw/EMEX">
 <a href="https://github.com/Sunwood-ai-labs/EMEX" title="Go to GitHub repo"><img src="https://img.shields.io/static/v1?label=EMEX&message=Sunwood-ai-labs&color=blue&logo=github"></a>
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Sunwood-ai-labs/EMEX">
 <a href="https://github.com/Sunwood-ai-labs/EMEX"><img alt="forks - Sunwood-ai-labs" src="https://img.shields.io/github/forks/EMEX/Sunwood-ai-labs?style=social"></a>
