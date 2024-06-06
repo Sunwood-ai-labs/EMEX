@@ -1,0 +1,20 @@
+genome:
+    # 組み合わせるモデルを指定(ここでは3つのモデルを指定)
+    models:
+      - NousResearch/Hermes-2-Pro-Mistral-7B
+      - PocketDoc/Dans-AdventurousWinds-Mk2-7b
+      - HuggingFaceH4/zephyr-7b-beta
+    # マージ方法を指定 (ここではtask_arithmeticという方法を使用)
+    merge_method: task_arithmetic
+    base_model: mistralai/Mistral-7B-v0.1
+    layer_granularity: 8 # sane default
+    allow_negative_weights: true # useful with task_arithmetic
+# タスク名を指定
+tasks:
+  - name: alpaca_prompt_format
+    # タスクの重みを指定 (このタスクの重要度を0.4とする)
+    weight: 0.4
+  # タスク名を指定
+  - name: spartqa_train
+    # タスクの重みを指定 (このタスクの重要度を0.6とする)
+    weight: 0.6
